@@ -1,0 +1,23 @@
+/* Menu.css */
+.menu-container {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .menu-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    list-style-type: none;
+  }
+  
+  .menu-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .menu-list li a:hover {
+    text-decoration: underline;
+  }
+  
